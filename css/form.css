@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #1a5048;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/wormz.png);
+}
+
+.container {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(1, 1, 1, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea, input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="password"], textarea, input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #019084;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
